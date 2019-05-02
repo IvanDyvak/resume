@@ -13,6 +13,14 @@ function moveClass() {
 setInterval(moveClass, 1500);
 
 
+    $('.full-text').hide();
+    $('.view-btn').click(function (event) {
+        event.preventDefault();
+        $(this).parent().find('.full-text').slideToggle('slow');
+        $(this).text($(this).text() == 'Згорнути' ? 'Детальніше про обов"язки' : 'Згорнути');
+    });
+
+
 
 $(".btn").click(function () {
                 $.ajax({
