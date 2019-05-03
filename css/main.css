@@ -20439,4 +20439,7 @@ pre[class*="language-"] {
 .work{
   list-style-type: none
 }
+#tab3 h6 { 
+  font-style: italic ;
+}
 /*# sourceMappingURL=style.css.map */
