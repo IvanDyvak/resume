@@ -2096,7 +2096,8 @@ input[type="button"].btn-block {
   background-clip: padding-box;
   border: 0 solid transparent;
   border-radius: 0.25rem; 
-overflow: scroll;}
+/*overflow: scroll;*/
+}
 
 .dropdown-menu-right {
   right: 0;
@@ -20442,4 +20443,6 @@ pre[class*="language-"] {
 #tab3 h6 { 
   font-style: italic ;
 }
+
+
 /*# sourceMappingURL=style.css.map */
