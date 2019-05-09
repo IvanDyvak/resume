@@ -17,9 +17,11 @@ setInterval(moveClass, 1500);
     $('.view-btn').click(function (event) {
         event.preventDefault();
         $(this).parent().find('.full-text').slideToggle('slow');
-        $(this).text($(this).text() == 'Згорнути' ? 'Детальніше про обов"язки' : 'Згорнути');
-    });
+        $(this).text($(this).text() == '-' ? '+' : '-');    });
 
+// $(function(){
+//     $('.selectpicker').selectpicker();
+// });
 
 
 $(".btn").click(function () {
