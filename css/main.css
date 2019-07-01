@@ -20444,5 +20444,29 @@ pre[class*="language-"] {
   font-style: italic ;
 }
 
+#tab3:before {
+    border-top: 200px solid #ffffff;
+    border-right: 200px solid transparent;
+    top: 0;
+    content: '';
+    display: block;
+    position: absolute;
+    left: 0;
+  }
+
+#tab4{
+  background: linear-gradient(to right, rgb(255, 255, 255) 1%,rgb(216, 216, 216) 51%,rgb(174, 174, 174) 100%);
+
+}
+
+#tab4:before {
+    border-top: 200px solid #ffffff;
+    border-left: 200px solid transparent;
+    top: 0;
+    content: '';
+    display: block;
+    position: absolute;
+    right: 0;
+  }
 
 /*# sourceMappingURL=style.css.map */
