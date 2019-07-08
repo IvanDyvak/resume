@@ -15675,7 +15675,7 @@ footer {
   -moz-transition-delay: 0s;
   transition-delay: 0s;
   background-color: transparent;
-  border: 1px solid #e5e5e5; }
+  border: 1px solid #e3e3; }
 
 .text-white [class*="bordered"], .user-caption .socials {
   background: transparent;
@@ -20452,6 +20452,7 @@ pre[class*="language-"] {
     display: block;
     position: absolute;
     left: 0;
+    z-index: 1;
   }
 
 #tab4{
