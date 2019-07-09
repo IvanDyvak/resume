@@ -20455,17 +20455,6 @@ pre[class*="language-"] {
     z-index: 1;
   }
 
-  @media (max-width: 768px) {
-    #tab3:before {
-        border-top: 50px solid #ffffff;
-        border-right: 50px solid transparent;
-      }
-    #tab4:before {
-      border-top: 50px solid #ffffff;
-      border-left: 50px solid transparent;
-    }
-     }
-
 #tab4{
   background: linear-gradient(to right, rgb(255, 255, 255) 1%,rgb(216, 216, 216) 51%,rgb(174, 174, 174) 100%);
 
@@ -20480,5 +20469,15 @@ pre[class*="language-"] {
     position: absolute;
     right: 0;
   }
+  @media (max-width: 768px) {
+    #tab3:before {
+        border-top: 50px solid #ffffff;
+        border-right: 50px solid transparent;
+      }
+    #tab4:before {
+      border-top: 50px solid #ffffff;
+      border-left: 50px solid transparent;
+    }
+     }
 
 /*# sourceMappingURL=style.css.map */
